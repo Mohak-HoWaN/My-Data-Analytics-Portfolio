@@ -24,6 +24,10 @@ Thumbs.db
 ~$*.pptx
 ~$*.xlsx
 
+# Extra Files
+Portfolio-Project-Print.pdf
+IMDb_Movie_Analysis_Overview.mp4
+*.mp4
 # ---------------------------------------------------------
 # OPTIONAL: Large Data and Binary Files
 # Uncomment the lines below if you want to avoid pushing large datasets 
