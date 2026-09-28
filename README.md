@@ -117,7 +117,7 @@ I am currently open to new opportunities in Data Analytics and Data Science. I'd
 <br>
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/Mohak-HoWaN/count.svg" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Mohak-HoWaN&label=Profile%20views&color=0052cc&style=flat" alt="Profile Views" />
 </div>
 
 > *💡 **Tip:** Click on the `Portfolio Project.pdf` badge at the top for a full walkthrough of my methodologies, or explore the individual project folders above to see my source code in action.*
