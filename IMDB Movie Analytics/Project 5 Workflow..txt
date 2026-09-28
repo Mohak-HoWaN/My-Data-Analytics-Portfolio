@@ -1,0 +1,80 @@
+Project 5 Workflow.
+
+Here’s a breakdown of how to use the provided column names to address the analysis tasks:
+
+---
+
+### **Column Usage for Each Task**
+
+#### **A. Movie Genre Analysis**
+- **Relevant Columns:**
+  - `genres`: Analyze the distribution of genres.
+  - `imdb_score`: Calculate descriptive statistics for each genre.
+- **Approach:**
+  - Split `genres` for movies with multiple genres.
+  - Use `imdb_score` to compute statistics (mean, median, etc.).
+
+---
+
+#### **B. Movie Duration Analysis**
+- **Relevant Columns:**
+  - `duration`: Analyze movie length distribution.
+  - `imdb_score`: Correlate duration with scores.
+- **Approach:**
+  - Compute descriptive statistics for `duration`.
+  - Create a scatter plot of `duration` vs. `imdb_score`.
+
+---
+
+#### **C. Language Analysis**
+- **Relevant Columns:**
+  - `language`: Determine the most common languages.
+  - `imdb_score`: Calculate statistics for each language.
+- **Approach:**
+  - Group movies by `language` and compute metrics using `imdb_score`.
+
+---
+
+#### **D. Director Analysis**
+- **Relevant Columns:**
+  - `director_name`: Group movies by director.
+  - `imdb_score`: Compute average scores for each director.
+- **Approach:**
+  - Use `imdb_score` to rank directors based on average scores.
+  - Highlight directors performing in the top percentile.
+
+---
+
+#### **E. Budget Analysis**
+- **Relevant Columns:**
+  - `budget`: Analyze financial investment.
+  - `gross`: Calculate profit margins.
+  - `imdb_score`: Evaluate budget impact on ratings.
+- **Approach:**
+  - Compute the correlation between `budget` and `gross`.
+  - Identify movies with the highest `(gross - budget)`.
+
+---
+
+### **Additional Considerations**
+- **Social Media Influence:**
+  - Columns like `director_facebook_likes`, `actor_1_facebook_likes`, `actor_3_facebook_likes`, and `cast_total_facebook_likes` can analyze whether social media popularity impacts ratings.
+- **Critic and User Reviews:**
+  - Columns like `num_critic_for_reviews`, `num_user_for_reviews`, and `num_voted_users` help investigate if critical and user engagement correlates with success.
+- **Release Timing:**
+  - Columns like `title_year` and `content_rating` help analyze how release timing and content suitability impact ratings.
+- **Country-Specific Trends:**
+  - `country` and `language` columns allow comparison of movie success across regions.
+
+---
+
+### Next Steps:
+1. **Preprocessing:**
+   - Handle missing values in critical columns like `budget`, `gross`, and `duration`.
+   - Ensure consistent formatting for categorical columns like `genres`, `language`, and `country`.
+2. **Analysis:**
+   - Use Excel, Python (pandas, matplotlib, seaborn), or Power BI for calculations and visualizations.
+3. **Visualization:**
+   - Bar charts, histograms, scatter plots, and pie charts to present findings.
+
+Let me know if you'd like assistance with implementing these analyses!

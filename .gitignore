@@ -1,0 +1,35 @@
+# Python Virtual Environments
+venv/
+eda_env/
+env/
+.env
+
+# IDE / Editor Configurations
+.idea/
+.vscode/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Microsoft Office Temporary Files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# ---------------------------------------------------------
+# OPTIONAL: Large Data and Binary Files
+# Uncomment the lines below if you want to avoid pushing large datasets 
+# or videos to GitHub (Git is not ideal for large media/datasets).
+# ---------------------------------------------------------
+# *.csv
+# *.xlsx
+# *.mp4
+# *.pdf
